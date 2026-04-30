@@ -31,4 +31,6 @@ $$dp[i][j] = \max(dp[i-1][j], v_i + dp[i-1][j - w_i])$$
 3.  No external dependencies or installations are required!
 
 ---
-Built with 💖 by Jaffer Shaik
+* Built by Jaffer Shaik - AP24110011174
+* Course: Coding Skills - II (B.Tech-CSE, 4th Semester)
+* Submission Date: April 30, 2026
