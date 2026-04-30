@@ -4,8 +4,8 @@ A web-based tool designed to help students maximize their exam performance. By t
 
 ## ✨ Key Features
 *   **Optimal Task Selection:** Uses the 0/1 Knapsack algorithm to find the mathematically best study plan.
-*   **DP Table Visualization:** Generates a real-time heat map and "backtracking path" showing exactly how the algorithm calculated the result.[cite: 7, 9]
-*   **Dynamic Task Management:** Add, delete, and modify subjects, hours, and marks weightage on the fly.[cite: 7, 9]
+*   **DP Table Visualization:** Generates a real-time heat map and "backtracking path" showing exactly how the algorithm calculated the result.
+*   **Dynamic Task Management:** Add, delete, and modify subjects, hours, and marks weightage on the fly.
 *   **Efficiency Analytics:** Displays total marks, hours utilized, and overall time efficiency.
 
 ## 🧪 The Algorithm: 0/1 Knapsack
@@ -16,18 +16,18 @@ For a task $i$ with weight $w_i$ and value $v_i$:
 $$dp[i][j] = \max(dp[i-1][j], v_i + dp[i-1][j - w_i])$$
 
 **Complexity:**
-*   **Time Complexity:** $O(n \times W)$, where $n$ is the number of tasks and $W$ is the total study hours.[cite: 6]
-*   **Space Complexity:** $O(n \times W)$ to store the DP table.[cite: 6]
+*   **Time Complexity:** $O(n \times W)$, where $n$ is the number of tasks and $W$ is the total study hours.
+*   **Space Complexity:** $O(n \times W)$ to store the DP table.
 
 ## 📂 File Structure
-*   `index.html`: The user interface and task input forms.
-*   `style.css`: Modern, responsive styling with Inter typography.
-*   `app.js`: Handles state management, UI events, and table rendering.[cite: 9]
-*   `dp.js`: Contains the core Dynamic Programming and Greedy comparison logic.[cite: 6]
+*   `index_2.html`: The user interface and task input forms.
+*   `style_2.css`: Modern, responsive styling with Inter typography.
+*   `app_2.js`: Handles state management, UI events, and table rendering.
+*   `dp.js`: Contains the core Dynamic Programming and Greedy comparison logic.
 
 ## 🛠️ Setup
 1.  Clone the repository.
-2.  Open `index.html` in your browser.
+2.  Open `index_2.html` in your browser.
 3.  No external dependencies or installations are required!
 
 ---
