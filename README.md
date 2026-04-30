@@ -20,14 +20,14 @@ $$dp[i][j] = \max(dp[i-1][j], v_i + dp[i-1][j - w_i])$$
 *   **Space Complexity:** $O(n \times W)$ to store the DP table.
 
 ## 📂 File Structure
-*   `index_2.html`: The user interface and task input forms.
-*   `style_2.css`: Modern, responsive styling with Inter typography.
-*   `app_2.js`: Handles state management, UI events, and table rendering.
+*   `index.html`: The user interface and task input forms.
+*   `style.css`: Modern, responsive styling with Inter typography.
+*   `app.js`: Handles state management, UI events, and table rendering.
 *   `dp.js`: Contains the core Dynamic Programming and Greedy comparison logic.
 
 ## 🛠️ Setup
 1.  Clone the repository.
-2.  Open `index_2.html` in your browser.
+2.  Open `index.html` in your browser.
 3.  No external dependencies or installations are required!
 
 ---
